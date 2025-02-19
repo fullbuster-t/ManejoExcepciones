@@ -39,6 +39,10 @@ public class User {
         this.lastname = lastname;
     }
 
+    public Role getRole() {
+        return role;
+    }
+
     public String getRoleName() {
         return role.getName();
     }
@@ -46,4 +50,6 @@ public class User {
     public void setRole(Role role) {
         this.role = role;
     }
+
+
 }
