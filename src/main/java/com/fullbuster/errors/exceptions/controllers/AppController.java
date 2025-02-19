@@ -8,6 +8,7 @@ public class AppController {
 
     @GetMapping("/app")
     public String index() {
+        int value = 100/0;
         return "OK 200";
     }
 
